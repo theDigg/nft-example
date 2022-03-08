@@ -56,7 +56,7 @@ export default function CreatorDashboard() {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={nft.image} className="rounded" alt='img' />
                 <div className="p-4 bg-black">
-                  <p className="text-2xl font-bold text-white">Price - {nft.price} Eth</p>
+                  <p className="text-2xl font-bold text-white">Price - {nft.price} MATIC</p>
                 </div>
               </div>
             ))

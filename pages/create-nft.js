@@ -94,7 +94,7 @@ export default function CreateItem() {
           }
         />
         <input
-          placeholder="Asset Price in Eth"
+          placeholder="Asset Price in MATIC"
           className="mt-2 border rounded p-4"
           onChange={(e) =>
             updateFormInput({ ...formInput, price: e.target.value })
